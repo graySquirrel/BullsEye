@@ -15,9 +15,18 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    @IBAction func showAlert() {
-        print("Hello!")
+    @IBAction func knockKnock() {
+        let alert = UIAlertController(title: "Who the hell is there!", message: "yeah, who is it", preferredStyle: .actionSheet)
+        let action = UIAlertAction(title: "nothing", style: .default, handler: nil)
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
     }
 
+    @IBAction func showAlert() {
+        let alert = UIAlertController(title: "Hello Fudgy!", message: "This is my first effing try", preferredStyle: .alert)
+        let action = UIAlertAction(title: "Wow", style: .default, handler: nil)
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
+    }
 }
 
