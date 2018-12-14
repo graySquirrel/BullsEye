@@ -14,6 +14,7 @@
 		19E4281921C19D3B00575580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E4281721C19D3B00575580 /* LaunchScreen.storyboard */; };
 		19E4282121C2EE5B00575580 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E4282021C2EE5B00575580 /* AboutViewController.swift */; };
 		19E4282321C2F3D300575580 /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E4282221C2F3D300575580 /* AuthorViewController.swift */; };
+		19E4282721C4182600575580 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 19E4282621C4182600575580 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		19E4281A21C19D3B00575580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19E4282021C2EE5B00575580 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		19E4282221C2F3D300575580 /* AuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
+		19E4282621C4182600575580 /* BullsEye.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				19E4281521C19D3B00575580 /* Assets.xcassets */,
 				19E4281721C19D3B00575580 /* LaunchScreen.storyboard */,
 				19E4281A21C19D3B00575580 /* Info.plist */,
+				19E4282621C4182600575580 /* BullsEye.html */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19E4281921C19D3B00575580 /* LaunchScreen.storyboard in Resources */,
+				19E4282721C4182600575580 /* BullsEye.html in Resources */,
 				19E4281621C19D3B00575580 /* Assets.xcassets in Resources */,
 				19E4281421C19D3900575580 /* Main.storyboard in Resources */,
 			);
@@ -291,12 +295,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWR8PFJZTT;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fritzco.BullsEye;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fritzcoappleid.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -308,12 +313,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWR8PFJZTT;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fritzco.BullsEye;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fritzcoappleid.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
